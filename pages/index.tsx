@@ -1,19 +1,10 @@
-import Head from 'next/head';
+import { Typography } from '@material-ui/core';
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Basic Flashcards</title>
-        <meta
-          name="description"
-          content="Create, find, and study flashcard decks."
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main>
-        <h1>Basic Flashcards</h1>
+        <Typography variant="h1">Basic Flashcards</Typography>
       </main>
     </>
   );
